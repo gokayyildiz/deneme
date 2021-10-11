@@ -15,4 +15,4 @@ ENV FLASK_ENV=development
 # tell the port number the container should expose
 EXPOSE 5000
 
-CMD [ "python3", "./main.py" , "-h", "0.0.0.0"]
+CMD [ "python3", "./application.py" , "-h", "0.0.0.0"]
